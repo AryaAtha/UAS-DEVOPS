@@ -1,17 +1,15 @@
 ---
 templateKey: index-page
-title: Official Website SMK Daarussa'adah
-image: /img/tasakuran.jpg
-heading: SMK Daarussa'adah Tangerang
-subheading: Berkarakter, Berprestasi dan Berpesantren
+title: Official Website Dapur Malebo
+image: /img/malebo1.png
+heading: Dapur Malebo Tangerang
+subheading: Kulineran Bandung 
 about:
   heading: Siapa Kami
-  description: Kami adalah lembaga pendidikan vokasi SMK Daarussa'adah yang
-    berkomitmen mengambil tanggung jawab dalam mencetak SDM yang mumpuni dapat
-    bersaing di dunia industri dan bisnis.
+  description: Dapur Malebo adalah restoran kuliner khas bandung, berkomitmen menyajikan hidangan lezat dengan cita rasa autentik, kualitas terbaik, dan pelayanan hangat. Kami mengambil peran dalam memperkaya khasanah kuliner lokal sekaligus mendorong kemajuan industri makanan di kota Bandung
   image:
-    image: /img/penyerahan-piagam.jpg
-    alt: Para siswa SMK Daarussa'adah kegiatan kelas industri
+    image: /img/malebo3.png
+    alt: Dapur Malebo
   button:
     url: /about
     label: Mengetahui lebih lanjut

@@ -32,7 +32,7 @@ function ContactPageTemplate({
                   name="first-name"
                   id="first-name"
                   autoComplete="given-name"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
 
@@ -48,7 +48,7 @@ function ContactPageTemplate({
                   name="last-name"
                   id="last-name"
                   autoComplete="family-name"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
 
@@ -64,7 +64,7 @@ function ContactPageTemplate({
                   name="email-address"
                   id="email-address"
                   autoComplete="email"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
 
@@ -83,7 +83,7 @@ function ContactPageTemplate({
                   name="phone"
                   id="phone"
                   autoComplete="email"
-                  className="mt-1 focus:ring-green-500 focus:border-green-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                  className="mt-1 focus:ring-red-500 focus:border-red-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
                 />
               </div>
 
@@ -104,7 +104,7 @@ function ContactPageTemplate({
                     id="message"
                     name="message"
                     rows={3}
-                    className="shadow-sm focus:ring-green-500 focus:border-green-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
+                    className="shadow-sm focus:ring-red-500 focus:border-red-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
                     defaultValue={""}
                   />
                 </div>
@@ -115,7 +115,7 @@ function ContactPageTemplate({
           <div className="mt-2 py-3 text-right">
             <button
               type="submit"
-              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-green-900 bg-yellow-300 hover:bg-lime-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
+              className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-red-900 bg-yellow-300 hover:bg-lime-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
             >
               Kirim
             </button>
@@ -124,7 +124,7 @@ function ContactPageTemplate({
       </TextImageSplit>
 
       <TextImageSplit image={office.image} imageLeft={true}>
-        <p className="text-green-700 font-semibold tracking-wide">
+        <p className="text-red-700 font-semibold tracking-wide">
           {office.tagline}
         </p>
         <SectionHeading>{office.location}</SectionHeading>

@@ -13,7 +13,7 @@ const NAVLINK_CLASSES =
 // the same as the href.
 const isActive = ({ isCurrent }) => {
   return isCurrent
-    ? { className: NAVLINK_CLASSES + " text-green-700 border-yellow-300" }
+    ? { className: NAVLINK_CLASSES + " text-red-700 border-yellow-300" }
     : {}
 }
 
@@ -31,7 +31,7 @@ const ExactNavLink = ({ children, ...rest }) => {
 // are current
 const isPartiallyActive = ({ isPartiallyCurrent }) => {
   return isPartiallyCurrent
-    ? { className: NAVLINK_CLASSES + " text-green-700 border-yellow-300" }
+    ? { className: NAVLINK_CLASSES + " text-red-700 border-yellow-300" }
     : {}
 }
 
@@ -65,8 +65,8 @@ const Navbar = ({ className }) => {
               placeholder="blurred"
             />
             <div className="text-xl font-bold tracking-wide lg:text-2xl">
-              <span className="text-gray-800 font-semibold">SMK</span>
-              <span className="text-green-700">Daarussaadah</span>
+              <span className="text-gray-800 font-semibold">Dapur</span>
+              <span className="text-red-700">Malebo</span>
             </div>
           </Link>
 
@@ -101,7 +101,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              Depan
+              Tentang Kami
             </ExactNavLink>
             <PartialNavLink
               to="/projects"
@@ -109,7 +109,7 @@ const Navbar = ({ className }) => {
                 setMenuOpen(false)
               }}
             >
-              Kegiatan
+              Menu
             </PartialNavLink>
             <ExactNavLink
               to="/about"

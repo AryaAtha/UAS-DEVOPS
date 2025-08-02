@@ -1,7 +1,6 @@
 ---
 templateKey: projects-page
-title: Aktifitas dan Kegiatan
-heading: "Kegiatan Sekolah "
-subheading: SMK Daarussa'adah aktif dalam kegiatan sekolah untuk memberikan
-  pengalaman kepada siswa/i
+title: Menu Masakan
+heading: "Menu Masakan "
+subheading: Pilihan menu yang cocok untuk makan sekeluarga dan camilan ringan
 ---

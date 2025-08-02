@@ -12,22 +12,21 @@ const Footer = () => {
               <Link className="flex items-center gap-1" to="/">
                 <StaticImage
                   src="../img/logo.png"
-                  alt="Logo SMK Daarussaadah"
+                  alt="Logo Dapur Malebo"
                   layout="fixed"
-                  width={40}
-                  height={40}
+                  width={45}
+                  height={45}
                   backgroundColor="transparent"
                   placeholder="blurred"
                 />
                 <div className="text-xl font-bold tracking-wide">
-                  <span className="text-gray-800 font-semibold">SMK</span>
-                  <span className="text-green-700">Daarussaadah</span>
+                  <span className="text-gray-800 font-semibold">Dapur</span>
+                  <span className="text-red-700">Malebo</span>
                 </div>
               </Link>
 
               <p className="max-w-md mt-2 text-gray-600 dark:text-gray-400">
-                Konsep belajar SMK Daarussaadah Praktis dan Berpesantren
-                Menjadikan Siswa/i cepat memahami dalam setiap pembelajaran Ilmu, Teknologi dan Islam.
+                Dapur Malebo, restoran kulineran khas Bandung dangan cita rasa otentik
               </p>
             </div>
           </div>
@@ -42,7 +41,7 @@ const Footer = () => {
                   to="/"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
-                  SMK Daarussaadah
+                  Dapur Malebo
                 </Link>
                 <Link
                   to="/"
@@ -117,10 +116,10 @@ const Footer = () => {
                   Kontak
                 </h3>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +62 85300000
+                  +62 89668226889
                 </span>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  info@smk-daarussaadah.sch.id
+                  
                 </span>
               </div>
             </div>
@@ -131,7 +130,7 @@ const Footer = () => {
 
         <div>
           <p className="text-center text-gray-800 dark:text-white">
-            © SMK Daarussaadah 2025 - All rights reserved
+            © Dapur Malebo 2025 - All rights reserved
           </p>
         </div>
       </div>
